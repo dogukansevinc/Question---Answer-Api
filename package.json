@@ -1,0 +1,30 @@
+{
+  "name": "question-answer-api",
+  "version": "1.0.0",
+  "description": "Express - Question Answer Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextandback/Question---Answer-Api.git"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Mehmet Dogukan Sevinc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextandback/Question---Answer-Api/issues"
+  },
+  "homepage": "https://github.com/nextandback/Question---Answer-Api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
